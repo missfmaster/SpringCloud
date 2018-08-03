@@ -72,24 +72,24 @@
 				</executions>
 			</plugin>
 			<!-- mvn mybatis-generator:generate -->
-			<!-- <plugin>
+			<plugin>
 				<groupId>org.mybatis.generator</groupId>
 				<artifactId>mybatis-generator-maven-plugin</artifactId>
 				<version>1.3.6</version>
 				<configuration>
-					<configurationFile>${basedir}/src/main/resources/generator/generatorConfig.xml</configurationFile>
+					<configurationFile>${basedir}/src/main/resources/mybatis/generator/generatorConfig.xml</configurationFile>
 					<overwrite>true</overwrite>
 					<verbose>true</verbose>
 				</configuration>
 				<dependencies>
 					<dependency>
-		     			这个地方这个jar是修改过的,生成的类使用Criteria结尾
+		     			<!-- 这个地方这个jar是修改过的,生成的类使用Criteria结尾 -->
 		            	<groupId>org.mybatis.generator</groupId>
 		            	<artifactId>mybatis-generator-core-criteria</artifactId>
 		            	<version>1.3.6</version>
 		        	</dependency>
 				</dependencies>
-			</plugin> -->
+			</plugin>
 		</plugins>
 	</build>
 

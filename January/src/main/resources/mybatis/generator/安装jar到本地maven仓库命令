@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=xxx/mybatis-generator-core-criteria-1.3.6.jar -DgroupId=org.mybatis.generator -DartifactId=mybatis-generator-core-criteria -Dversion=1.3.6 -Dpackaging=jar

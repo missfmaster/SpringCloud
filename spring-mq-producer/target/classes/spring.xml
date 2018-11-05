@@ -9,11 +9,11 @@
 	http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<rabbit:connection-factory id="" 
-		host=""
-		port=""
-		username=""
-		password=""/>
+	<rabbit:connection-factory id="rabbitConnFactory"
+		host="192.168.3.3"
+		port="10010"
+		username="admin"
+		password="1"/>
 	
 
 </beans>

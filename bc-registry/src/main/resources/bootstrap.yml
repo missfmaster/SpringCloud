@@ -1,0 +1,11 @@
+server:
+  port: 8002
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+#      defaultZone: http://admin:1@127.0.0.1:8002/eureka
+      defaultZone: http://127.0.0.1:8002/eureka
+  server:
+    wait-time-in-ms-when-sync-empty: 1

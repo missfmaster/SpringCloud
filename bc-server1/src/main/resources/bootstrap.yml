@@ -1,0 +1,19 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: server1
+  profiles:
+    active: default
+  cloud:
+    config:
+      enabled: true
+      uri: http://127.0.0.1:8001
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url: 
+      defaultZone: http://127.0.0.1:8002/eureka
